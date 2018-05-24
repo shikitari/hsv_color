@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="favicon.png" sizes="256x256">
+  
+  <meta name="description" content="Visualizing the HSV color space by using 3DCG.">
+  <meta name="keywords" content="HSV,JavaScript,WegGL,Three.js">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HSV Color Space</title>
+</head>
+
+<body>
+  <style>
+    #loader  {
+      position: relative;
+      left: 150px;
+      border: 10px solid #f3f3f3;
+      border-top: 10px solid #727272;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      animation: spin 2s linear infinite;
+      margin: auto 0px;
+    }
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+  <script>
+    function hanleLoaded() {
+      document.getElementById("loader").style.display = "none";
+    }
+  </script>
+  <div id="title">
+    <h1>Visualizing the HSV color space</h1>
+  </div>
+  <div id="loader"></div>
+  <div id="app"></div>
+  <script src="index.bundle.js" onload="hanleLoaded();"></script>
+  <p>The source code is on github.</p>
+</body>
+
+</html>
