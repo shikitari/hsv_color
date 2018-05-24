@@ -1,4 +1,6 @@
 # Visualizing the HSV Color space. 
+![demo](https://raw.githubusercontent.com/shikitari/hsv_color/7bf85845e6f860e832c08493e9a1949cc8c29cf4/dist/demo.gif "demo")
+- https://youtu.be/J31jt3d9fY4
 
 ## Getting Started
 ### Install node.js
